@@ -1,0 +1,92 @@
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(/src/assets/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+  margin: 0%;
+}
+
+#root {
+  max-width: 100%;
+  /* margin: 0 auto; */
+  padding-top: 3.5%;
+  font-family: SpaceGrotesk;
+}
+
+.navbar-Container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.logo-wrapper {
+  width: 20%;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.contact-button {
+  padding: 1%;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 0.7rem;
+  border: 0rem solid white;
+  color: white;
+  background-color: #6690bc;
+  font-size: 1rem;
+  font-family: SpaceGrotesk;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.firstPartContainer {
+  display: flex;
+  margin-top: 0rem;
+  margin-left: 10%;
+  padding-right: 10%;
+  font-size: 130%;
+}
+
+.secondPartContainer {
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+
+.signUpPartContainer {
+  /* background-color: #91a5ba; */
+  background-color: rgba(145, 165, 186, 0.34);
+  margin: 0%;
+  padding: 10%;
+  font-size: 150%;
+  color: #2e3e51;
+}
+
+input {
+  width: 40%;
+  height: 3.5rem;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  outline: none;
+}
+
+.logoFooterContainer {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  color: #48688a;
+  font-size: large;
+}
+
+.footerLinks-Wrapper {
+  display: flex;
+  margin-left: 40%;
+}
+
+.link1 {
+  margin: 5%;
+}
+
+.link2 {
+  margin: 5%;
+}
